@@ -5,7 +5,7 @@ body {
 
 .topNav {
     overflow: hidden;
-    background-color: #333;
+    background-color: black;
 }
 
 .topNav a {
@@ -61,3 +61,21 @@ p {
 
 }
 
+* { 
+    padding: 0%;
+    margin: 0%;
+    box-sizing: content-box;
+
+}
+footer {
+    background-color: black;
+}
+
+.footerNav a {
+    color: #ddd;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    justify-content: center;
+    padding: 20px;
+    padding-top: 20px;
+}
