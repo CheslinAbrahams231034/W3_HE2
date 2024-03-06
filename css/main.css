@@ -7,7 +7,9 @@ body {
     overflow: hidden;
     background-color: black;
 }
-
+.nav img{
+    width: 33px;
+}
 .topNav a {
     float: left;
     color: white;
@@ -39,7 +41,18 @@ body {
 }
 img {
     border-radius: 30px;
+
+
 }
+
+.textBox {
+    color: black;
+}
+
+.textBox span {
+    font-size: 16px;
+}
+
 .imgTextOverlay img {
     width: 100%;
 }
@@ -67,6 +80,7 @@ p {
     box-sizing: content-box;
 
 }
+
 footer {
     background-color: black;
 }
@@ -78,4 +92,27 @@ footer {
     justify-content: center;
     padding: 20px;
     padding-top: 20px;
+    margin-top: 0%s;
+}
+.btn {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #0481aa;
+    width: 160px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.buttonSettings{
+    margin-top: 50px;
+    margin-bottom: 50px
+    
+    ;
 }
